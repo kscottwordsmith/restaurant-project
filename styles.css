@@ -1,2 +1,7 @@
 html {box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit;}
+
+body {
+	background: rgb(85,14,8);
+	color: #ccc;
+}
