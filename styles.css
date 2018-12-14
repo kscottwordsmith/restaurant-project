@@ -5,3 +5,54 @@ body {
 	background: rgb(85,14,8);
 	color: #ccc;
 }
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+
+#tabs {
+	display: flex;
+	flex-direction: column;
+}
+
+.tab-content {
+	width: 600px;
+	border: 1px solid #ccc;
+	height: 0;
+	overflow: auto;
+	padding: 0;
+	visibility: 0;
+}
+
+h2 {
+	padding-bottom: 0;
+}
+
+.tab-title {
+	border: 1px solid #ccc;
+	display: inline-block;
+	cursor: pointer;
+	width: 600px;
+}
+
+#tab1 > .tab-title {
+	background: rgb(155,121,39);
+}
+
+#tab2 > .tab-title {
+	background: rgb(43,21,7);
+}
+
+#tab3 > .tab-title {
+	background: rgb(155,121,39);
+}
+
+.tab-img {
+	width: 600px;
+}
+
+.active {
+	height: 500px;
+	padding: 5px;
+}
