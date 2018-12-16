@@ -16,43 +16,57 @@ body {
 	flex-direction: column;
 }
 
+#tabnames {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+
 .tab-content {
 	width: 600px;
 	border: 1px solid #ccc;
-	height: 0;
+	border-radius: 5px;
+	height: auto;
 	overflow: auto;
 	padding: 0;
 	visibility: 0;
-}
-
-h2 {
-	padding-bottom: 0;
-}
-
-.tab-title {
-	border: 1px solid #ccc;
 	display: inline-block;
-	cursor: pointer;
-	width: 600px;
+	background: rgb(74,28,26);
 }
 
-#tab1 > .tab-title {
+#tabnames a {
 	background: rgb(155,121,39);
+	text-decoration: none;
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 5px 5px 0px 0px;
+	display: inline-block;
+	padding: 0.5em 1em;
 }
 
-#tab2 > .tab-title {
-	background: rgb(43,21,7);
+#tabnames a:hover {
+	background: rgba(155,121,39,.5);
 }
 
-#tab3 > .tab-title {
-	background: rgb(155,121,39);
+#tabnames a.current {
+	background: rgba(155,121,39,.5);
+	border-bottom: 0;
 }
 
 .tab-img {
 	width: 600px;
 }
 
-.active {
-	height: 500px;
-	padding: 5px;
+.tab-text {
+	padding: 1em;
+}
+
+#appetizertext li, #entreetext li, #desserttext li {
+	list-style: none;
+}
+
+#appetizername, #entreename, #dessertname {
+	font-weight: bold;
 }
