@@ -44,12 +44,27 @@
 				</div>
 
 				<div class="tab-content" id="reservations">
-					<p class="tab-text">
-						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, ducimus eveniet repudiandae, corporis odio expedita perspiciatis ullam tempora dolore architecto itaque dolorum ipsum fugit dignissimos ab, rerum sequi quasi natus!</div>
-						<div>Est culpa corporis, obcaecati reprehenderit molestias fugit sequi repudiandae excepturi a ratione debitis tempora id blanditiis iure natus ipsa dolores vero sapiente. Dolorum earum veritatis illum explicabo voluptatem, veniam nam!</div>
-						<div>Veritatis distinctio neque cumque incidunt magni ratione cupiditate necessitatibus cum tempore ipsam aliquam nemo suscipit totam illo qui voluptates dignissimos quam saepe minus aut labore alias, culpa doloremque reiciendis! Dolore?</div>
-						<div>Maiores at repellendus possimus id dolorum, eveniet reiciendis iure omnis ea ex ipsam distinctio expedita accusantium exercitationem, vel totam labore facilis non aspernatur. Porro repellat laboriosam libero quia sit ullam?</div>
-					</p>
+					<form class="tab-text">
+						<label for="fullname">Full Name</label>
+						<input type="text" id="fullname" name="fullname" /><br />
+
+						<label for="numguests">Number of Guests</label>
+						<input type="number" id="numguests" name="numguests" /><br />
+
+						<label for="resdate">Date</label>
+						<input type="date" id="resdate" name="resdate" /><br />
+
+						<label for="specnotes">Special Notes</label>
+						<textarea id="specnotes" name="specnotes"></textarea><br />
+
+						<label for="seatpref">Seating Preference</label>
+						<select id="seatpref" name="seatpref">
+							<option value="indoors">Indoors</option>
+							<option value="outdoors">Outdoors</option>
+						</select><br />
+
+						<input type="submit" value="Reserve Table" />
+					</form>
 				</div>
 			</div>
 			

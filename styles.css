@@ -70,3 +70,20 @@ body {
 #appetizername, #entreename, #dessertname {
 	font-weight: bold;
 }
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+#fullname {
+	width: 300px;
+}
+
+#numguests {
+	width: 150px;
+}
+
+#resdate {
+	width: 150px;
+}
