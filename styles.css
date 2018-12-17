@@ -76,6 +76,12 @@ form {
 	flex-direction: column;
 }
 
+input, textarea {
+	background: rgb(74,28,26);
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+
 #fullname {
 	width: 300px;
 }
@@ -86,4 +92,17 @@ form {
 
 #resdate {
 	width: 150px;
+}
+
+#specnotes {
+	width: 300px;
+	height: 175px;
+}
+
+#seatpref {
+	width: 150px;
+}
+
+#subbutton {
+	width: 100px;
 }
