@@ -8,7 +8,9 @@ body {
 
 #midsection {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	height: 350px;
+	margin-top: 50px;
 }
 
 #special {
@@ -16,24 +18,59 @@ body {
 	font-size: 40px;
 }
 
+.food{
+	height: 250px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 36px;
+}
 
+.link{
+	visibility: none;
+}
 
 #news {
  text-decoration: underline;
  font-size: 40px;
 }
 
+.latest-news{
+	text-align: center;
+}
+
+.todays-specials{
+	text-align: center;
+}
+
+.text{
+	padding: 10px;
+}
+
 div.latest-news, .todays-specials {
-	height: 350px;
-	width: 350px;
+	height: 300px;
+	width: 300px;
 	background-color: rgb(225,225,225);
-	margin: 10px;
+	margin: 0;
+	padding: 0;
 	color: rgb(40,41,35);
 	
 }
 
-.map {
-	margin-left: -98px;
+.bottombody{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+
+}
+
+.forum{
+	width: 600px;
+}
+
+#foodphotos{
+	width: 250px;
+
 }
 
 #container {
@@ -191,7 +228,7 @@ p{
 	margin: 0;
 	height:50px;
 	width:200px;
-	background-image: linear-gradient(yellow,gold);
+	background: rgb(155,121,39);
 	border-radius: 5%;
 	text-align: center;
 
