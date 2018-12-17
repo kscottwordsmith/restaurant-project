@@ -5,3 +5,38 @@ body {
 	background: rgb(85,14,8);
 	color: #ccc;
 }
+
+
+
+#midsection{
+display: flex;
+flex-direction: row;
+
+
+}
+
+#special{
+	text-decoration: underline;
+	font-size: 40px;
+}
+
+
+
+#news{
+ text-decoration: underline;
+ font-size: 40px;
+
+}
+div.latest-news, .todays-specials {
+	height: 350px;
+	width: 350px;
+	background-color: rgb(225,225,225);
+	margin: 10px;
+	color: rgb(40,41,35);
+	
+}
+
+.map {
+	margin-left: -98px;
+	margin-top: 10px;
+}
