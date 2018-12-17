@@ -106,3 +106,93 @@ input, textarea {
 #subbutton {
 	width: 100px;
 }
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	height: 1500px;
+}
+
+#header{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(252,209,42,.5);
+}
+
+#logo1{
+	width: 180px;
+	border: 2px solid gold;
+}
+
+#title1{
+	font-size: 25px;
+	margin-top: 14px;
+	color: gold;
+
+}
+
+#title2{
+	font-size: 25px;
+	color: gold;
+}
+
+#title3{
+	font-size: 50px;
+	color: gold;
+}
+
+p{
+	margin: 0;
+}
+
+#icons{
+	float: right;
+}
+
+#icon{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	height:50px;
+	width:200px;
+	background-image: linear-gradient(yellow,gold);
+	border-radius: 5%;
+	text-align: center;
+
+}
+
+#fb{
+	margin:5px;
+	font-size: 40px;
+	color: rgb(71,89,147);
+}
+
+#twitter{
+	margin:5px;
+	font-size: 40px;
+	color: rgb(112,141,194)
+}
+
+#insta{
+	margin:5px;
+	font-size: 40px;
+	color: silver;
+}
+
+#open{
+	margin:5px;
+	font-size: 36px;
+	color: red;
+}
+
+#barimg{
+	width:1000px;
+	height: 250px;
+	margin-top: 10px;
+}
