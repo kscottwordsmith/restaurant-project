@@ -24,12 +24,67 @@
 		<div id="img">
 			<img id="barimg"src="./images/barinside.jpg">
 		</div>
+
 		<div id="midsection">
 		</div>
+
 		<div id="food-photos">
 		</div>
+
 		<div id="tabs">
+			<ul id="tabnames">
+				<li><a href="#ourstory">Our Story</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#reservations">Reservations</a></li>
+			</ul>
+			<div> <!--used purely to reduce siblings-->
+				<div class="tab-content" id="ourstory">
+					<p class="tab-text"">Little Bit of Beef started as three guys that were tired of asking the same question whenever they walked into a bar: "Where's the burgers?" Too often, they'd walk into a supposedly fine establishment, only to be met with mediocre-at-best offerings. The three vowed to provide an experience worthy of the American people.</p>
+					<img class="tab-img" src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"/>
+					<p class="tab-text">Naturally, man cannot live on sliders alone, and so the three were asked to branch out. Their signature sliders were given proper accompaniment, and now stand as equals. But there's one great request forever on their lips: a Little Bit of Beef!</p>
+				</div>
+
+				<div class="tab-content" id="menu">
+					<div class="tab-text">
+						<h2 id="appetizerhead">Appetizers</h2>
+						<div id="tizerput">
+						</div>
+						<h2 id="entreehead">Entrees</h2>
+						<div id="entreeput">
+						</div>
+						<h2 id="desserthead">Desserts</h2>
+						<div id="dessertput">
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-content" id="reservations">
+					<form class="tab-text">
+						<label for="fullname">Full Name</label>
+						<input type="text" id="fullname" name="fullname" /><br />
+
+						<label for="numguests">Number of Guests</label>
+						<input type="number" id="numguests" name="numguests" /><br />
+
+						<label for="resdate">Date</label>
+						<input type="date" id="resdate" name="resdate" /><br />
+
+						<label for="specnotes">Special Notes</label>
+						<textarea id="specnotes" name="specnotes"></textarea><br />
+
+						<label for="seatpref">Seating Preference</label>
+						<select id="seatpref" name="seatpref">
+							<option value="indoors">Indoors</option>
+							<option value="outdoors">Outdoors</option>
+						</select><br />
+
+						<input type="submit" value="Reserve Table" id="subbutton"/>
+					</form>
+				</div>
+			</div>
+			
 		</div>
+
 		<div id="footer">
 		</div>
 	</div>
