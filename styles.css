@@ -6,23 +6,23 @@ body {
 	color: #ccc;
 }
 
-#midsection{
-display: flex;
-flex-direction: row;
+#midsection {
+	display: flex;
+	flex-direction: row;
 }
 
-#special{
+#special {
 	text-decoration: underline;
 	font-size: 40px;
 }
 
 
 
-#news{
+#news {
  text-decoration: underline;
  font-size: 40px;
-
 }
+
 div.latest-news, .todays-specials {
 	height: 350px;
 	width: 350px;
@@ -34,7 +34,8 @@ div.latest-news, .todays-specials {
 
 .map {
 	margin-left: -98px;
-=======
+}
+
 #container {
 	width: 1000px;
 	margin: auto;
