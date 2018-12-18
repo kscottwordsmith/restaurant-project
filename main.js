@@ -20,11 +20,16 @@ $(document).ready(function(){
 					<li id="appetizerextra">${item.extra.hasOwnProperty('spicy') && item.extra.spicy ? extraStuff[0] : ''}
 					${item.extra.hasOwnProperty('glutenfree') && item.extra.glutenfree ? extraStuff[1] : ''}
 					${item.extra.hasOwnProperty('vegetarian') && item.extra.vegetarian ? extraStuff[2] : ''}</li>
+					<li id="appetizerwarn"></li>
 				</ul>
 			`
 		})
 		var appContent = document.getElementById('tizerput')
 		appContent.innerHTML = appTemplate
+	})
+
+	$(".fab.fa-hotjar").on('hover', function() {
+		$('#appetizerwarn').innerHTML = "yes"
 	})
 
 	var entTemplate = ''
